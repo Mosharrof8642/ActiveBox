@@ -1,0 +1,151 @@
+/*nav start*/
+.scrolled{
+	background: rgba(0, 0, 0, 0.5);
+}
+.border-top-0{
+	border-color: #fff;
+}
+nav ul li{
+	padding: 0px 20px;
+}
+/*nav end*/
+
+/*main start*/
+header{
+	background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../img/bgimage.jpg') no-repeat;
+	background-size: cover;
+}
+.main{
+	color: #fff;
+}
+.main-btn{
+	background: #e84545;
+	color: #fff;
+}
+/*main end*/
+
+/*features start*/
+.features i{
+	color: #e84545;
+}
+/*features end*/
+
+/*works start*/
+.works .img-fluid{
+	height: 100%;
+}
+.works-content{
+	position: relative;
+	overflow: hidden;
+}
+.works-content:hover .works-content-inner{
+	top: 0px;
+	visibility: visible;
+}
+.works-content-inner{
+	transition: .5s;
+	position: absolute;
+	width: 100%;
+ 	height: 100%;
+ 	left: 0px;
+ 	top: -100%;
+ 	text-align: center;
+ 	color: #fff;
+ 	background: rgba(255, 0, 0, 0.6);
+ 	visibility: hidden;
+}
+.works-content-inner h6{
+	padding-top: 100px;
+	font-weight: 600;
+} 
+/*works end*/
+
+/*our team start*/
+.card{
+	border: none;
+}
+.card a{
+	text-decoration: none;
+}
+.card a i{
+	color: #c6cacc;
+	border: 1px solid #c6cacc;
+	border-radius: 2px;
+}
+/*our team end*/
+
+/*testimonials start*/
+.test-left{
+	margin: 0px;
+	padding: 0px;
+}
+.caro h5{
+	color: #fff;
+	padding-left: 80px;
+	padding-right: 250px;
+	padding-top: 100px;
+	font-size: 33px;
+	font-weight: 600;
+	font-style: italic;
+}
+.caro p{
+	color: #fff;
+	padding-left: 80px;
+	padding-bottom: 60px;
+}
+.carousel-indicators{
+	justify-content: flex-start;
+}
+.carousel-indicators [data-bs-target]{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+}
+/*testimonials end*/
+
+/*big-footer start*/
+.big-footer{
+	background: #3a3e64;
+}
+.big-footer h6{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+}
+.big-footer p{
+	color: #afb0bc;
+	font-size: 14px;
+}
+.location span{
+	display: block;
+}
+.share a{
+	text-decoration: none;
+}
+.share a i{
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 3px;
+}
+/*big-footer end*/
+
+/*footer start*/
+.footer{
+	background: #313454;
+}
+.footer p{
+	color: #808080;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+.footer a{
+	text-decoration: none;
+	color: #808080;
+}
+.footer i{
+	color: darkred;
+}
+.footer span{
+	color: #fff;
+}
+/*footer end*/
